@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/" href="spaceinvaders.jnlp">
+	<information>
+		<title>Space Invaders</title>
+		<vendor>Steven Kumar</vendor>
+		<homepage href="https://mytimekumar.github.io/" />
+		<description>Space Invaders Game</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+" />
+		<jar href="space_invadersdemo.jar" />
+	</resources>
+	<application-desc main-class="space.invaders.MainFrame" />
+</jnlp>
+
