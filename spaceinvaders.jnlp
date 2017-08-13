@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/" href="spaceinvaders.jnlp">
+<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/spaceinvaders/" href="spaceinvaders.jnlp">
 	<information>
 		<title>Space Invaders</title>
 		<vendor>Steven Kumar</vendor>
-		<homepage href="https://mytimekumar.github.io/spaceinvaders/index.html" />
+		<homepage href="https://mytimekumar.github.io/spaceinvaders/" />
 		<description>Space Invaders Game</description>
 	</information>
 	<security>
