@@ -1,17 +1,19 @@
-# pairsgame
-                Pairs Card Game
+Space Invaders Game 
 
-This is a java Swing based Pairs Card game. Which has been designed for development purposes only. Running game: enter: 
-https://mytimekumar.github.io/pairsgame - into web browser to download game
+This is a java Swing based Space Invaders game. Which has been designed for development purposes only. </p>
 
 You will more likely see a popup screen saying Application Blocked by Java Security. Please click on below link to show how to run jnlp file on your operating system. https://java.com/en/download/help/jcp_security.xml
 
-Alternatively you can download jar file onto desktop and run via cmd or terminal using below commands:
+Alternatively you can download jar file onto desktop and run via cmd or terminal using below commands: </p>
 
-java -jar jar-file
+java -jar jar-file 
 
-To download jar file click on the jar file in this repository and next screen click view Raw save file to desktop.
+Please note to run the jar file from cmd or terminal, you must be in the directory that the jar file has been downloaded to. 
 
-Please note I am still looking at tweeking this project possibly adding a timer. When selecting new game the cards are not shuffling correctly, so will show the same position i.e. game already playing. Thanks for looking at my project.
+To download jar file click: https://github.com/mytimekumar/spaceinvaders and then click on space_invadersdemo.jar in the repository, then in the next screen click view Raw save file to desktop. 
+
+Please note that this project does have a bug with the collision detection with Alien bullet and player, which I trying to resolve at the moment. Thanks for looking at my project.
+
+
 
 Steven Kumar
