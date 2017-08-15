@@ -20,11 +20,22 @@
 
 	<div class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-8">
       <h3>Space Invaders</h3>
 
       <img src="splashscreen_new.png" alt="Space Invaders Game" style="width:400px;height:307px;">
-
+	
+      	 <!-- ... -->
+      "https://www.java.com/js/deployJava.js"></script>
+    <script>
+        // using JavaScript to get location of JNLP
+        // file relative to HTML page
+        var dir = location.href.substring(0,
+            location.href.lastIndexOf('/')+1);
+        var url = dir + "spaceinvaders.jnlp";
+        deployJava.createWebStartLaunchButton(url, '1.7.0');
+    </script>
+    <!-- ... -->
       <p>
       This is a java Swing based Space Invaders game. Which has been designed for development purposes only. 
       </p>
@@ -61,18 +72,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-		 <!-- ... -->
-    <script src=
-      "https://www.java.com/js/deployJava.js"></script>
-    <script>
-        // using JavaScript to get location of JNLP
-        // file relative to HTML page
-        var dir = location.href.substring(0,
-            location.href.lastIndexOf('/')+1);
-        var url = dir + "spaceinvaders.jnlp";
-        deployJava.createWebStartLaunchButton(url, '1.7.0');
-    </script>
-    <!-- ... -->
+	
 
 </body>
 </html>
